@@ -51,4 +51,4 @@ Examples:
   ./putacleak.py -d carrefour.fr -kw pass,credential,"mot de passe",administrator -ft pdf,sh,txt,docm -mp 13
 ```
 
-*LLM llama 3.2 is not yet perfect and can make mistakes. To improve reliability, you can use ![nemotron](https://ollama.com/library/nemotron), but it requires more hardware.*
+*LLM llama 3.2 is not yet perfect and can make mistakes. To improve reliability, you can use [nemotron](https://ollama.com/library/nemotron), but it requires more hardware.*
