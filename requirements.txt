@@ -1,0 +1,10 @@
+PyMuPDF
+docx2txt
+chardet
+curl_cffi
+ollama
+pandas
+python-docx
+odfpy
+openpyxl
+python-pptx
