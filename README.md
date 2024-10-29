@@ -12,7 +12,7 @@ Automate your dorking and analysis of your target's files: Files are automatical
 
 - install pip requirements : `pip install -r requirements.txt`
 
-- install uncensored LLama3.2 : `ollama run artifish/llama3.2-uncensored`
+- install [Ollama](https://ollama.com/download) and uncensored LLama3.2 : `ollama run artifish/llama3.2-uncensored`
 
 - **Residential proxies to change line 27 and 28**
 
