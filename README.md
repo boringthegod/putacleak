@@ -14,7 +14,7 @@ Automate your dorking and analysis of your target's files: Files are automatical
 
 - install [Ollama](https://ollama.com/download) and uncensored LLama3.2 : `ollama run artifish/llama3.2-uncensored`
 
-- **Residential proxies to change line 27 and 28**
+- **Residential proxies to change line 27 and 28** or don't use proxies if you like (may reduce the number of files found)
 
 
 # Usage
