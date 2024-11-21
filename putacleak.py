@@ -403,10 +403,20 @@ def main():
 
     extract_output_folder = os.path.join(args.domain, "extract")
 
-    # Vérifier si le répertoire extract_output_folder existe
     if not os.path.exists(extract_output_folder):
         print("Aucun fichier trouvé")
-        return  # Arrêter l'exécution de main() si aucun fichier n'est trouvé
+        return
+    
+    for file_name in os.listdir(output_folder):
+        extract_surrounding_text(
+            os.path.join(output_folder, file_name),
+            keywords=[
+                "mot de passe", "mot de passes", "password", "passwords", "passwort", "secrets",
+                "secret", "confidentiel", "confidential", "token", "passwd", "aws_access",
+                "credentials", "login", "pass", "internal use only", "administrator", "api_secret", "access_key"
+            ],
+            extract_output_folder=extract_output_folder
+        )
 
     results = []
     for file_name in os.listdir(extract_output_folder):
